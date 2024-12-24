@@ -1,0 +1,62 @@
+@import "../vars";
+@import "../mixins";
+
+.hero {
+  background-color: $h-bg;
+  padding-top: 40px;
+  padding-bottom: 241px;
+
+  &-container {
+    gap: 156px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-left {
+    width: 45%;
+  }
+
+  &-logo {
+    color: $accent;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  &-title {
+    margin: 0;
+    margin-bottom: 25px;
+    margin-top: 14px;
+    padding-right: px;
+    font-size: 55px;
+    color: $black;
+    font-weight: 600;
+  }
+
+  &-desk {
+    color: $desk;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: $accent;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: $white;
+  transition: background-color 0.3s ease;
+  border-radius: 2px;
+
+  &:hover {
+    color: $black;
+    background-color: $h-bg;
+    border: 1px solid $accent;
+  }
+}

@@ -1,0 +1,74 @@
+@import "../vars";
+@import "../mixins";
+
+.services {
+  max-width: 1254px;
+  margin: 0 auto;
+  padding: 20px;
+
+  &-top {
+    margin-bottom: 80px;
+
+    &-title {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    &-desk {
+      font-size: 20px;
+      width: 480px;
+      color: $desk;
+    }
+  }
+
+  &-bottom {
+    display: flex;
+  }
+
+  &-menu {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    text-decoration: none;
+    list-style: none;
+
+    &-icon {
+      height: 70px;
+      margin-left: 130px;
+      background-image: url(../../images/shipping.svg);
+      background-repeat: no-repeat;
+    }
+
+    &-icon-guarantee {
+      margin-left: 130px;
+      height: 70px;
+      background: url(../../images/GUARANTEE.svg);
+      background-repeat: no-repeat;
+    }
+
+    &-icon-payments {
+      margin-left: 130px;
+      height: 70px;
+      background: url(../../images/payments.svg);
+      background-repeat: no-repeat;
+    }
+
+    &-item {
+      margin-bottom: 10px;
+      width: 330px;
+
+      &-title {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      &-desk {
+        font-size: 16px;
+        margin-bottom: 40px;
+        color: $gray;
+      }
+    }
+  }
+}

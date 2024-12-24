@@ -17,3 +17,49 @@ body {
   font-weight: 400;
   background-color: #fff;
 }
+
+.header {
+  background-color: #fff8f6;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0 auto;
+}
+.header-container {
+  height: 161px;
+  max-width: 1688px;
+  margin: 0 109px;
+  padding: 0 20px;
+  padding-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-menu {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.header-menu-link {
+  text-decoration: none;
+  color: #454545;
+  font-size: 18px;
+}
+.header-menu-link--active {
+  position: relative;
+  color: #f6623e;
+}
+.header-buttons {
+  gap: 15px;
+}
+.header-btn {
+  background-color: transparent;
+  border: none;
+}

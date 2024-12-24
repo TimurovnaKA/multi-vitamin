@@ -1,0 +1,45 @@
+@import "../vars";
+@import "../mixins";
+
+.header {
+  background-color: $h-bg;
+  border-bottom: 1px solid $border;
+  margin: 0 auto;
+  &-container {
+    height: 161px;
+    max-width: 1688px;
+    margin: 0 109px;
+    padding: 0 20px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-menu {
+    margin-right: 50px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+    &-link {
+      text-decoration: none;
+      color: $desk;
+      font-size: 18px;
+
+      &--active {
+        position: relative;
+        color: $accent;
+      }
+    }
+  }
+
+  &-buttons {
+    gap: 15px;
+  }
+
+  &-btn {
+    background-color: transparent;
+    border: none;
+  }
+}

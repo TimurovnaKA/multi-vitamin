@@ -172,6 +172,13 @@ body {
   padding: 15px 30px;
   border: none;
   border-radius: 2px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.collection-btn:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #f6623e;
 }
 .collection-right-img {
   border-radius: 10px;

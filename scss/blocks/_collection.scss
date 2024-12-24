@@ -46,6 +46,13 @@
     padding: 15px 30px;
     border: none;
     border-radius: 2px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      color: $black;
+      background-color: $body-bg;
+      border: 1px solid $accent;
+    }
   }
 
   &-right {

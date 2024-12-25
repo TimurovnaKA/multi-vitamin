@@ -361,19 +361,19 @@ body {
 .services-menu-icon {
   height: 70px;
   margin-left: 130px;
-  background-image: url(../../images/shipping.svg);
+  background-image: url(../images/shipping.svg);
   background-repeat: no-repeat;
 }
 .services-menu-icon-guarantee {
   margin-left: 130px;
   height: 70px;
-  background: url(../../images/GUARANTEE.svg);
+  background-image: url(../images/GUARANTEE.svg);
   background-repeat: no-repeat;
 }
 .services-menu-icon-payments {
   margin-left: 130px;
   height: 70px;
-  background: url(../../images/payments.svg);
+  background-image: url(../images/payments.svg);
   background-repeat: no-repeat;
 }
 .services-menu-item {
@@ -389,4 +389,54 @@ body {
   font-size: 16px;
   margin-bottom: 40px;
   color: #9d9d9d;
+}
+
+.reviews {
+  margin: 0 auto;
+  max-width: 1678px;
+  background-color: #fff8f6;
+  border-radius: 10px;
+}
+.reviews-container {
+  max-width: 1508px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 240px;
+}
+.reviews-container-all {
+  padding: 102px 0;
+  padding-left: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 240px;
+}
+.reviews-left {
+  width: 500px;
+}
+.reviews-left-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.reviews-left-subtitle {
+  font-size: 30px;
+  font-weight: 500;
+  color: #f6623e;
+}
+.reviews-left-desk {
+  width: 620px;
+  font-size: 26px;
+  font-weight: 500;
+}
+.reviews-left-author {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f6623e;
+}
+.reviews-img {
+  border-radius: 10px;
 }

@@ -4,11 +4,10 @@
 .header {
   background-color: $h-bg;
   border-bottom: 1px solid $border;
-  margin: 0 auto;
   &-container {
     height: 161px;
     max-width: 1688px;
-    margin: 0 109px;
+    margin: 0 auto;
     padding: 0 20px;
     padding-top: 55px;
     display: flex;

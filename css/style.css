@@ -21,12 +21,11 @@ body {
 .header {
   background-color: #fff8f6;
   border-bottom: 1px solid #e0e0e0;
-  margin: 0 auto;
 }
 .header-container {
   height: 161px;
   max-width: 1688px;
-  margin: 0 109px;
+  margin: 0 auto;
   padding: 0 20px;
   padding-top: 55px;
   display: -webkit-box;
@@ -394,6 +393,7 @@ body {
 .reviews {
   margin: 0 auto;
   max-width: 1678px;
+  height: 772px;
   background-color: #fff8f6;
   border-radius: 10px;
 }
@@ -428,15 +428,29 @@ body {
   color: #f6623e;
 }
 .reviews-left-desk {
-  width: 620px;
+  width: 560px;
   font-size: 26px;
   font-weight: 500;
+  color: #454545;
 }
 .reviews-left-author {
   font-size: 16px;
   font-weight: 500;
   color: #f6623e;
 }
-.reviews-img {
+.reviews-right-orange {
+  width: 450px;
+  height: 360px;
+  background: #f6623e;
   border-radius: 10px;
+  -webkit-transform: translateX(65%);
+      -ms-transform: translateX(65%);
+          transform: translateX(65%);
+  z-index: -1;
+}
+.reviews-right-img {
+  border-radius: 10px;
+  -webkit-transform: translateY(-55%) translateX(20%);
+      -ms-transform: translateY(-55%) translateX(20%);
+          transform: translateY(-55%) translateX(20%);
 }

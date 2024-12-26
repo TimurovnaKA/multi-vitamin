@@ -4,6 +4,7 @@
 .reviews {
   margin: 0 auto;
   max-width: 1678px;
+  height: 772px;
   background-color: $h-bg;
   border-radius: 10px;
 
@@ -36,9 +37,10 @@
     }
 
     &-desk {
-      width: 620px;
+      width: 560px;
       font-size: 26px;
       font-weight: 500;
+      color: $desk;
     }
 
     &-author {
@@ -47,8 +49,16 @@
       color: $accent;
     }
   }
-
-  &-img {
+  &-right-orange {
+    width: 450px;
+    height: 360px;
+    background: #f6623e;
     border-radius: 10px;
+    transform: translateX(65%);
+    z-index: -1;
+  }
+  &-right-img {
+    border-radius: 10px;
+    transform: translateY(-55%) translateX(20%);
   }
 }

@@ -1,0 +1,41 @@
+@import "../vars";
+@import "../mixins";
+
+.news {
+  max-width: 1264px;
+  margin: 0 auto;
+
+  &-container {
+    max-width: 1264px;
+    margin: 0 auto;
+    margin: 126px 0;
+  }
+
+  &-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  &-item {
+    width: 30%;
+    padding: 10px;
+
+    &-img {
+      width: 100%;
+    }
+
+    &-title {
+      font-size: 18px;
+      margin-top: 22px;
+      font-weight: 500;
+    }
+
+    &-price {
+      margin-top: 7px;
+      font-size: 16px;
+      font-weight: 500;
+      color: $accent;
+    }
+  }
+}

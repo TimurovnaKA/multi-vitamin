@@ -508,6 +508,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 120px;
+  border-bottom: 2px solid #9d9d9d;
 }
 .footer-good {
   width: 326px;
@@ -517,7 +518,6 @@ body {
           align-items: center;
   text-align: center;
   margin: 124px 0px;
-  padding: 0 auto;
 }
 .footer-good-logo {
   width: 100%;
@@ -571,8 +571,14 @@ body {
   margin: 0 120px;
 }
 .footer-bottom-socials {
-  text-decoration: none;
+  margin: 5px;
 }
-.footer-bottom-logo {
+.footer-bottom-social {
+  margin: 5px;
+  gap: 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.footer-logo {
   color: #f6623e;
 }

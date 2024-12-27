@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 120px;
+    border-bottom: 2px solid $gray;
   }
 
   &-good {
@@ -21,7 +22,6 @@
     align-items: center;
     text-align: center;
     margin: 124px 0px;
-    padding: 0 auto;
     &-logo {
       width: 100%;
     }
@@ -69,12 +69,17 @@
     display: flex;
     justify-content: space-between;
     margin: 0 120px;
-
     &-socials {
+      margin: 5px;
+    }
+    &-social {
+      margin: 5px;
+      gap: 20px;
       text-decoration: none;
+      margin-right: 10px;
     }
-    &-logo {
-      color: $accent;
-    }
+  }
+  &-logo {
+    color: $accent;
   }
 }
